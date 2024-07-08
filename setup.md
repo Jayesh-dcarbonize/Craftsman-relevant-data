@@ -27,3 +27,8 @@ git clone https://github.com/Jayesh-dcarbonize/Craftsman-relevant-data.git
 cd Craftsman-relevant-data
 python -m venv venv
 source venv/Scripts/activate
+pip install streamlit
+pip install specklepy
+pip install pandas
+pip install plotly-express
+streamlit run main.py
